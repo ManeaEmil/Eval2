@@ -1,0 +1,57 @@
+#sec {
+    font-family: 'Lucida Sans', Geneva, sans-serif;
+    color: firebrick;
+}
+
+body {
+    background-color: cornsilk;
+    color:crimson;
+}
+
+#contact {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: lightcoral;
+    background-color: bisque;
+}
+
+#top {
+    color: mediumvioletred;
+    background-color: black;
+}
+
+table, th, td {
+    margin-left: auto;
+    border: 1px double;
+    border-color: black;
+}
+
+#static {
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.retea {
+    text-align: center;
+}
+
+#comp {
+    font-family: 'Lucida Sans', Geneva, sans-serif;
+    color: firebrick;
+    text-align: right;
+    text-decoration: underline;
+    background-color: beige;
+}
+
+#double {
+    font-family: 'Lucida Sans', Geneva, sans-serif;
+    color: firebrick;
+    background-color: antiquewhite;
+}
+
+#away {
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 500px;
+    height: 500px;
+}

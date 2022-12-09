@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body onload="switchBehaviour();onStart()">
+        <h2 id="sec">Manea Emil</h2>
+        <p id="contact">Manea.Em.Emil@student.utcluj.ro</p>
+
+        <h4 id="comp">Componente si caracteristici</h4>
+        <table>
+            <tr>
+                <th id="top">Denumire</th>
+                <th id="top">Producator</th>
+                <th id="top">Parametrii</th>
+            </tr>
+            <tr>
+                <th>Intel i3-7100</th>
+                <th>Intel Corporation</th>
+                <th><ul>
+                    <li>Nuclee = 2</li>
+                    <li>Threads = 4</li>
+                    <li>Frecventa de baza = 3.90GHz</li>
+                    <li>Cache = 3MB</li>
+                    <li>TDP = 51W</li>
+                </ul></th>
+            </tr>
+            <tr>
+                <th>NVIDIA GTX 1650 (6G)</th>
+                <th>NVIDIA</th>
+                <th><ul>
+                    <li>Arhitectura = Turing</li>
+                    <li>Frecventa de baza = 1.410GHz</li>
+                    <li>Frecventa de boost = 1,590GHz</li>
+                    <li>Memorie = 4GB GDDR6</li>
+                    <li>Versiune PCIe = PCIe 3.0 16x</li>
+                    <li>Nuclee CUDA = 896</li>
+                </ul></th>
+            </tr>
+            <tr>
+                <th>MSI H110M ECO</th>
+                <th>MSI (Micro-Star International)</th>
+                <th><ul>
+                    <li>Socket = FCLGA1151</li>
+                    <li>Chipset = Intel H110</li>
+                    <li>Frecventa maxima memorie = 2133MHz</li>
+                    <li>Placa retea = Integrata</li>
+                    <li>Sloturi DIMM = 2</li>
+                    <li>Factor de forma = mATX</li>
+                </ul></th>
+            </tr>
+            <tr>
+                <th>FURY Beast DDR4 RGB</th>
+                <th>Kingston</th>
+                <th><ul>
+                    <li>Viteza = 2666MT/s</li>
+                    <li>Latente = CL15/CL16/CL17/CL18/CL19</li>
+                    <li>Tensiune = 1.2V | 1.35V</li>
+                    <li>Temperatura de operare = 0°C - 70°C</li>
+                </ul></th>
+            </tr>
+            <tr>
+                <th>RM850 PSU</th>
+                <th>Corsair</th>
+                <th><ul>
+                    <li>Greutate = 1.7kg</li>
+                    <li>Eficienta 80 PLUS = Gold</li>
+                    <li>MTBF hours = 100.000h</li>
+                    <li>Protectii = OVP | UVP | SCP | OTP | OPP</li>
+                </ul></th>
+            </tr>
+            <tr>
+                <th>FireCuda HHD</th>
+                <th>Seagate</th>
+                <th><ul>
+                    <li>Capacitate = 4TB</li>
+                    <li>RPM = 7200</li>
+                    <li>Ore power-on = 8762h</li>
+                    <li>Factor de forma = 3.5"</li>
+                </ul></th>
+            </tr>
+        </table>
+        <h4 id="sec">Structura Retelei</h4>
+        <img id="static" src="network.png" alt="network">
+        <div class="retea">
+            <h4 id="sec">Caracteristici conexiune retea</h4>
+            <ol>
+                <li>Adresa MAC = 30-9C-23-5F-B6-98</li>
+                <li>Adresa IP = 192.168.0.224</li>
+                <li>Upload = ~10kbps</li>
+                <li>Download = ~5MBps</li>
+            </ol>
+        </div>
+        <!-- Ascund pozele apoi arat slideshowul -->
+        <h4 id="double" ondblclick="hide()">Utilizarea Resurselor</h4>
+        <div id="hide">
+            <img id="away" src="cpu.png">
+            <img id="away" src="memory.png">
+            <img id="away" src="disk.png">
+            <img id="away" src="network0.png">
+            <img id="away" src="services.png">
+            <img id="away" src="processes.png">
+        </div>
+        <div id="hidden">
+            <img name="show" height="500" width="500">
+        </div>
+    </body>
+</html>
